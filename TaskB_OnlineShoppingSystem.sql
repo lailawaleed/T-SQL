@@ -149,7 +149,7 @@ INSERT INTO OrderAssociation (OrderID, ProductID, OrderDetailsID) VALUES
 GO
 
 
-/*------------------------------------------- DDL Operations ----------------------------------------------*/
+/*-------------------------------------------------------- DDL Operations -------------------------------------------------------------*/
 -- 1) Add a new column 'rating' to Products table with a default value
 ALTER TABLE Products
 ADD rating DECIMAL(2, 1) DEFAULT 0.0;
@@ -163,7 +163,7 @@ ADD CONSTRAINT DF_Category DEFAULT 'new' FOR Category;
 ALTER TABLE Products
 DROP COLUMN rating;
 
-/*------------------------------------------- DML Operations ----------------------------------------------*/
+/*-------------------------------------------------------- DML Operations -------------------------------------------------------------*/
 -- 1) Update the OrderDate for all orders where OrderID > 0
 UPDATE Orders
 SET OrderDate = GETUTCDATE()
