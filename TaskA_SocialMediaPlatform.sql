@@ -96,4 +96,4 @@ USE [SocialMediaPlatform];
 DROP TABLE Users;
 
 -- 2) Drop the entire 'SocialMediaPlatform' database
-DROP DATABASE [SocialMediaPlatfo
+DROP DATABASE [SocialMediaPlatform];
