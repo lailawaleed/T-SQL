@@ -89,3 +89,11 @@ INSERT INTO UserInteraction (InteractionID, UserID, PostID) VALUES
 (2, 2, 1);
 GO
 
+/*------------------------------------------------------------ DDL Operations ----------------------------------------------------------*/
+
+-- 1) Drop the 'Users' table from the SocialMediaPlatform database
+USE [SocialMediaPlatform];
+DROP TABLE Users;
+
+-- 2) Drop the entire 'SocialMediaPlatform' database
+DROP DATABASE [SocialMediaPlatfo
